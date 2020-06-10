@@ -39,7 +39,7 @@ function pageFunc(whichPage)
 {
 	switch(whichPage){
 		case 'home':
-			homeBtn.style.color="yellow";
+			homeBtn.style.color="#AC82B6";
 			homeBtn.style.backgroundColor = "black";
 			homeBtn.style.border="solid 7px black";
 			contactBtn.style.color="black";
@@ -53,7 +53,7 @@ function pageFunc(whichPage)
 			break;
 		case 'contact':
 			noSpam.style.display="block";
-			contactBtn.style.color="yellow";
+			contactBtn.style.color="#AC82B6";
 			contactBtn.style.backgroundColor = "black";
 			contactBtn.style.border="solid 7px black";
 			homeBtn.style.color="black";
@@ -67,7 +67,7 @@ function pageFunc(whichPage)
 			break;
 		case 'about':
 			noSpam.style.display="block";
-			aboutBtn.style.color="yellow";
+			aboutBtn.style.color="#AC82B6";
 			aboutBtn.style.backgroundColor = "black";
 			aboutBtn.style.border="solid 7px black";
 			homeBtn.style.color="black";
@@ -110,7 +110,7 @@ function contactCloseFunction()
 	social.style.display="none";
 	contactCloseBtn.style.display="none";
 	contactDiv.style.width="0%";
-	homeBtn.style.color="yellow";
+	homeBtn.style.color="#AC82B6";
 	homeBtn.style.backgroundColor = "black";
 	homeBtn.style.border="solid 7px black";
 	contactBtn.style.color="black";
@@ -125,7 +125,7 @@ function aboutCloseFunction()
 	aboutCloseBtn.style.display="none";
 	constructDiv.style.display="none";
 	aboutDiv.style.width="0%";
-	homeBtn.style.color="yellow";
+	homeBtn.style.color="#AC82B6";
 	homeBtn.style.backgroundColor = "black";
 	homeBtn.style.border="solid 7px black";
 	aboutBtn.style.color="black";
@@ -157,7 +157,7 @@ function scrollFunc()
 		}
 	}
 	else{
-		homeBtn.style.color="yellow";
+		homeBtn.style.color="#AC82B6";
 		homeBtn.style.backgroundColor = "black";
 		homeBtn.style.border="solid 7px black";
 		contactBtn.style.color="black";

@@ -39,14 +39,17 @@ body{
 
 
 #homeBtn{
+	font-family: sans-serif;
 	transition: 0.7s;
 }
 
 #contactBtn{
+	font-family: sans-serif;
 	transition: 1s;
 }
 
 #aboutBtn{
+	font-family: sans-serif;
 	transition: 1s;
 }
 
@@ -77,7 +80,7 @@ body{
 	position: fixed;
 	display: none;
 	background-color: transparent;
-	color: yellow;
+	color: #AC82B6;
 	border-color: transparent;
 	font-size: 200%;
 	padding: 2%;
@@ -110,7 +113,7 @@ body{
 	position: fixed;
 	display: none;
 	background-color: transparent;
-	color: yellow;
+	color: #AC82B6;
 	border-color: transparent;
 	font-size: 200%;
 	padding: 2%;
@@ -138,7 +141,7 @@ body{
 	right: 2%;
 	bottom: 1%;
 	font-size: 110%;
-	color: yellow;
+	color: #AC82B6;
 	text-align: center;
 }
 
