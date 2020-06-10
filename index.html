@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Redirecting...
+  </title>
+  <style type="text/css">
+    body{
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+<body scroll="no" style="overflow: hidden">
+<meta 
+     name='viewport' 
+     content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' 
+/>
+  <script type="text/javascript">
+    if(navigator.userAgent.includes('Android') || navigator.userAgent.includes('iPhone') || navigator.userAgent.includes('BB') || navigator.userAgent.includes('iPad')){
+    	window.location.href='m_main.html';
+    }
+    else{
+    	alert('Unknown Device.');
+    }
+  </script>
+<p style="font-size: 50pt; text-align: center; position: fixed; top: 25%;" id="areaText">Checking Browser...</p>
+
+<script>
+  document.getElementById('areaText').innerHTML='Your device is not supported yet. Visit this link from a mobile or tablet...';
+</script>
+</body>
+</html>

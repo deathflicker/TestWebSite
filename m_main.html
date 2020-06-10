@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Moumita</title>
+	<link rel="stylesheet" type="text/css" href="m_main.css">
+</head>
+<body croll="no" style="overflow: hidden">
+<meta 
+     name='viewport' 
+     content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' 
+/>
+
+
+<!-- BODY OF THE WEBPAGE -->
+<div id="bodyDiv" onscroll="scrollFunc()">
+
+	<!-- HEADER LIES HERE -->
+	<div id="headerDiv">
+
+		<!-- CURRENT DATE -->
+		<a id="dateId" style="position: fixed; font-family: cursive; font-size: 300%; color: rgba(0,0,0,0.2); width: 100%; height: 40%; display: flex; justify-content: center; align-items: center;">H</a>
+		
+
+		<!-- PREVENT USER FROM CLICKING MULTIPLE TIMES -->
+		<div id="noSpam"></div>
+
+
+		<!-- PAGE MENU -->
+		<div style="position: fixed; height: auto; width: auto; right: 2%; top: 1%; font-size: 90%;">
+
+			<!-- HOME BUTTON -->
+			<label onclick="pageFunc('home')" id="homeBtn">
+				&nbspHOME
+			</label>
+			<label>&nbsp&nbsp</label>
+
+			<!-- CONTACT BUTTON -->
+			<label onclick="pageFunc('contact')" id="contactBtn">
+				&nbspCONTACT
+			</label>
+			<label>&nbsp&nbsp</label>
+
+			<!-- ABOUT BUTTON -->
+			<label id="aboutBtn" onclick="pageFunc('about')">
+				&nbspABOUT
+			</label>
+			<label>&nbsp&nbsp</label>
+		</div>
+	</div>
+
+
+	<!-- CONTACT DIV-->
+	<div id="contactDiv">
+
+		<!-- Close Contact Button -->
+		<button id="contactCloseBtn" onclick="contactCloseFunction()">X</button>
+
+
+		<!-- Social Medias -->
+		<div id="social">
+			
+			<!-- FACEBOOK -->
+			<a style="border-bottom: dotted 1.5px darkgrey; color: white; font-size: 150%; text-decoration: none;" href="https://www.facebook.com/foreverArijit.1998">facebook</a><br><br>
+
+			
+			<!-- INSTAGRAM -->
+			<a style="border-bottom: dotted 1.5px darkgrey; color: white; font-size: 150%; text-decoration: none;" href="https://www.instagram.com/_.itz._.arpan._/">@instagram</a><br><br>
+
+			<!-- TWITTER -->
+			<a style="border-bottom: dotted 1.5px darkgrey; color: white; font-size: 150%; text-decoration: none;" href="https://twitter.com">#twitter</a><br><br>
+
+			<!-- Copyright-->
+			<div style="position: fixed; width: 100%; height: auto; bottom: 2%; text-align: center;">
+				<label style="color: #585454; font-size: 70%;">© Arpan Bhattacharya 2020</label>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- ABOUT DIV-->
+	<div id="aboutDiv">
+
+		<!-- Close About Button -->
+		<button id="aboutCloseBtn" onclick="aboutCloseFunction()">X</button>
+
+
+		<!-- UNDER CONSTRUCTION , MUST EDIT LATER -->
+		<div id="constructDiv">
+			<img style="width: 25%; height: 12.5%; border-radius: 10000px ; top: 35%; left: 37%; position: fixed;" src="me.jpg">
+
+			<label style="position: fixed; width: 100%; bottom: 0%; height: 40%; font-size: 120%; color: darkgrey; text-align: center;">Developer: Arpan Bhattacharya<br><br>PAGE UNDER CONSTRUCTION</label>
+		</div>
+
+	</div>
+		<!-- UNDER CONSTRUCTION ENDS -->
+
+
+
+	<!-- BACK TO TOP DIV -->
+	<div id="backTop" onclick="backTopFunc()">
+		<button>↑ TOP</button>
+	</div>
+
+
+<!--********************************************************* -->
+
+	<!-- POSTS -->
+
+	<!-- Post 1 -->
+	<div id="one">
+		<div id="oneHeader">
+			<img style="width: 20%; height: auto;" src="profile.gif">
+			<label style="position: inherit; font-family: sans-serif;">JUNE 10, 2020 <br><a style="position: inherit; color: darkgrey">&nbsp07:01 AM</a></label>
+		</div>
+		<label style="font-size: 130%;">An old man lived in the village. He was one of the most unfortunate people in the world. The whole village was tired of him; he was always gloomy, he constantly complained and was always in a bad mood....<br><a href="story.html" style="color:blue;">Read More</a></label>
+	</div><br>
+
+	<!-- -->
+
+	
+	<!-- Post 1 -->
+	<div id="two">
+		<div id="twoHeader">
+			<img style="width: 20%; height: auto;" src="profile.gif">
+			<label style="position: inherit; font-family: sans-serif;">JUNE 8, 2020 <br><a style="position: inherit; color: darkgrey">&nbsp01:12 PM</a></label>
+		</div>
+		<label style="font-size: 130%;">This great and underrated masterpiece is a meditation on good and evil and especially about the way that people’s expectations and assumptions about us may wear us down and eventually force us into compliance with their view....<br><a href="story.html" style="color: blue;">Read More</a></label>
+	</div><br>
+
+	<!--  -->
+
+	<div id="three">
+		<div id="threeHeader">
+			<img style="width: 20%; height: auto;" src="profile.gif">
+			<label style="position: inherit; font-family: sans-serif;">MAY 12, 2020 <br><a style="position: inherit; color: darkgrey">&nbsp05:46 PM</a></label>
+		</div>
+		<label style="font-size: 130%;">Among the handful of short stories closest to my heart, I’ve chosen “The Love of a Good Woman” by Canadian writer Munro, from her 1998 collection of that name. It’s about a murder – probably it’s a murder, because nothing is certain – and a love match that depends on keeping that murder secret....<br><a href="story.html" style="color: blue;">Read More</a></label>
+	</div><br>
+
+
+<script type="text/javascript" src="m_main.js"></script>
